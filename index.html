@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>My frist webpage</title>
-    <link rel="stylesheet" href="external.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+    body{
+        background-color: rgb(201, 25, 255);
+    }
+</style>
 </head>
-
 <body>
-    <!--Below is the Id selector-->
-    <p  style="background-color: red;" class="main" >this is a new p tag</p>
-    <div  class="main1">this is main</div>
+    <form method="post">
+        <label for="firstname"><b>FIRST NAME</b></label><br>
+        <input type="text" placeholder="First Name" required name="" id="firstname" ><br>
+        <label for="lastname"><b>LAST NAME</b></label><br>
+        <input type="text" placeholder="Last Name" required name="" id="lastname"><br>
+        <label for="email"><b>EMAIL</b></label><br>
+        <input type="email" placeholder="@email.com" required name="" id="email"><br>
+        <label for="password"><b>PASSWORD</b></label><br>
+        <input type="password" placeholder="password" required name="" id="password"><br><br>
+        <input type="submit" value="submit">
+    </form>
 </body>
-
 </html>
-
-
